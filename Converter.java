@@ -3,11 +3,12 @@ package main;
 import java.util.Scanner;
 
 public class Converter {
+	  static Scanner in = new Scanner(System.in);
 	public static void main(String[] args) {
     
         
         int menuSelection;
-        Scanner in = new Scanner(System.in);
+      
        
         
     while(true) {
@@ -51,7 +52,8 @@ public class Converter {
         } else {
             System.out.println("exit");
       
-    
+            in.close();
+            
     }
 	}}}
   
